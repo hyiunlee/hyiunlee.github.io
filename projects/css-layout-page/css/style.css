@@ -1,0 +1,26 @@
+img{
+    max-width: 500px;
+}
+
+.logo{
+    width:100px;
+}
+h1{
+	font-family: 'Helvetica', serif;
+	color:#0000FF;
+    font-size:50px;
+
+}
+h2{
+    font-size:1.5em;
+    text-transform: uppercase;
+    font-weight:500;
+    font: size 20px;
+
+}
+
+body{
+	font-family:'Times New Roman', serif;
+	font-size:20px;
+	margin-top:20px;
+}
