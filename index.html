@@ -3,16 +3,26 @@
 <html lang="en">
 
 <head>
-    <title>Navbar</title>
+    <!--helper meta tags-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--seo tags-->
+    <title>Hyun Lee</title>
     <meta name="description" content="This is the resume portfolio project">
-    <!-- Fonts -->
 
-    <!-- Bootstrap -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -26,24 +36,32 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page"
-                            href="http://127.0.0.1:5500/portfolio-project/About/index.html">About</a>
-                        <a class="nav-link" href="http://127.0.0.1:5500/portfolio-project/Resume/index.html">Resume</a>
-                        <a class="nav-link" href="http://127.0.0.1:5500/portfolio-project/Clips/index.html">Clips</a>
-                        <a class="nav-link"
-                            href="http://127.0.0.1:5500/portfolio-project/Contact/index.html">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html">About</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/resume/index.html">Resume</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/clips/index.html">Clips</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/contact/index.html">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <h1>Hyun Lee</h1>
-    <h2><i>Multimedia Jounalism with a Minor In Japanese</i></h2>
-    <p>Currently a sophomore student at the University of Maryland, College Park. Majoring in multimedia
-        journalism
-        with a minor in Japanese. Have an interest in writing, editing, language teaching, and arts.</p>
-
+    <div class="container-fluid">
+        <h1 class="name">Hyun Lee</h1>
+        <main>
+            <div class="row">
+                <div class="offset-mid-1 col-md-4">
+                    <img src="" alt="Hyun Lee" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <p class="bio">Currently a sophomore student at the University of Maryland, College Park. Majoring
+                        in multimedia journalism with a minor in Japanese. Have an interest in writing, editing,
+                        language teaching, and arts.
+                    </p>
+                </div>
+            </div>
+    </div>
+    </main>
 
     <!--Script tags-->
     <script src="http://code.jquery.com/jquery.js"></script>

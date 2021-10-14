@@ -1,57 +1,154 @@
+img{
+    max-width: 500px;
+}
+
+.logo{
+    width: 100px;
+}
+
 header{
     font-family: 'Libre Baskerville', sans-serif;
     color: #443742;
 }
+
 .bg-custom{
-    background-color:rgb(66, 64, 64)
-}
-.navbar-toggler{
-    border:0;
+    background-color:rgb(66, 64, 64);
+    padding: 20px 0;
+    margin-bottom:40px;
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 1.2px;
+    word-spacing: 40px;
     font-weight: 700px;
+    border-bottom: 1px solid;
 }
-img{
-    max-width: 500px;
+
+.navbar-toggler{
+    margin:0 auto;
+    border:0;
 }
-.logo{
-    width: 100px;
+
+/* about */
+.name{
+    font-family: 'Scheherazade New', serif;
+    text-align: left;
+    color: #3a3339;
+    font-weight:700;
+    font-size:120px;
 }
-h1{
-    font-family: 'Libre Baskerville', serif;
-    color: #443742;
-    font-weight:bold;
-    font-size:90px;
+
+.bio{
+    font-family: 'Roboto', sans-serif;
+    color: #3a3339;
+    font-size:40px;
+    font-weight: 300;
 }
-h2{
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #846C5B;
+
+/* resume */
+.resumedesc{
+    font-family: 'Scheherazade New', sans-serif;
+    color: #6d5d54;
+    font-weight:700;
 	font-size:70px
 }
-h3{
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #CEA07E;
-    font-weight:bold;
-	font-size:55px
+
+.resumetitle{
+    font-family: 'Roboto', sans-serif;
+	color: black;
+    font-weight:500;
+    font-size:50px
 }
-h4{
-    font-family: 'Helvetica Neue', sans-serif;
-	font-size:50px
-}
-h5{
-    font-family: 'Georgia', sans-serif;
-    color: #D2B48C;
-	font-size:40px
-}
-p{
-    font-family: 'Times New Roman', sans-serif;
+
+.resumedate{
+    font-family: 'Roboto', sans-serif;
     color: black;
-    font-weight:200;
-	font-size:45px
+	font-size:30px
 }
-.RESUME {
-    color:#36454F;
-    text-decoration: none;
-    font-weight: 600;
+
+.resumepara{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight:300;
+	font-size:35px
+}
+
+.list{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight:300;
+	font-size:35px
+}
+
+/* clips */
+.clips{
+    font-family: 'Scheherazade New', serif;
+    text-align: left;
+    color: #5c505a;
+    font-weight:700;
+    font-size:0px;
+}
+
+.soccer{
+    font-family: 'Roboto', sans-serif;
+    color: #3a3339;
+    font-weight:500;
+    font-size:55px;
+}
+
+.date{
+    font-family: 'Roboto', sans-serif;
+    color: #3a3339;
+    font-weight:100;
+    font-size:30px;
+}
+
+.desc{
+    font-family: 'Roboto', sans-serif;
+    color: #3a3339;
+    font-weight: 300;
+    font-size:35px;
+}
+
+.btn{
+    background: #dabdab;
+    color: rgb(97, 81, 81);
+    font-weight: 700px;
+}
+
+.card-body{
+    text-align: centre;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+
+/* contact */
+.contactcard{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+    color: #685c53;
+	font-size:90px
+}
+
+.contacttitle{
+    font-family: 'Roboto', sans-serif;
+    color: #3a3339;
+    font-weight:500;
+    font-size:60px;
+}
+
+.contactinfo{
+    font-family: 'Roboto', sans-serif;
+    color: #3a3339;
+    font-weight: 300;
+    font-size:50px;
+}
+
+/* other */
+.block{
+    background-color: #dabdab;
+    padding: 20px;
+    margin-bottom: 20px;
 }

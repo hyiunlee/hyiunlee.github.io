@@ -2,24 +2,25 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap</title>
+    <!--helper meta tags-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--seo tags-->
+    <title>Hyun Lee</title>
     <meta name="description" content="This is the resume portfolio project">
-    <!-- Fonts -->
 
-    <!-- Bootstrap -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Portfolio resume project">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Hyun Lee">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 
@@ -34,81 +35,109 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="http://127.0.0.1:5500/portfolio-project/About/index.html">About</a>
-                        <a class="nav-link" href="http://127.0.0.1:5500/portfolio-project/Resume/index.html">Resume</a>
-                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/portfolio-project/Clips/index.html">Clips</a>
-                        <a class="nav-link" href="http://127.0.0.1:5500/portfolio-project/Contact/index.html">Contact</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/index.html">About</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/resume/index.html">Resume</a>
+                        <a class="nav-link active" aria-current="page"
+                            href="http://127.0.0.1:5500/clips/index.html">Clips</a>
+                        <a class="nav-link" href="http://127.0.0.1:5500/contact/index.html">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-
-    <!--Clips-->
-    <h2>CLIPS</h2>
-    <!--Clips #1-->
-    <br>
-    <h3>SAS THE EYE</h3>
-    <br>
-    <h4><a href="https://saseye.com/2018/10/19/iasas-soccer-2018-recap/" target="_blank">IASAS Soccer 2018
-            Recap</a>
-    </h4>
-    <h5>October 19, 2018</h5>
-    <p>Besides Soccer, Volleyball and Cross Country were also sports celebrated in Season 1 of the IASAS
-        regional
-        tournaments this past weekend. We interviewed Students and athletes to test their knowledge of
-        Volleyball and
-        Cross Country.</p>
-    <!--Clips #2-->
-    <br><br>
-    <h4><a href="https://saseye.com/2018/10/25/do-students-know-volleyball-cross-country/" target="_blank">Do
-            Students
-            Know
-            Volleyball & Cross Country</a></h4>
-    <h5>October 25, 2018</h5>
-    <p>IASAS Soccer finals are coming up tomorrow! If you need to catch up, here’s a recap of the past two days
-        of
-        IASAS. Thank you to everyone who came to cheer on our SAS Eagles these past two days. Hope to see you
-        tomorrow
-        at the final games and good luck to all of the players!</p>
-    <!--Clips #3-->
-    <br><br>
-    <h4><a href="https://saseye.com/2019/05/05/the-scandal-that-shook-the-k-pop-industry/" target="_blank">The
-            Scandal
-            That Shook the K-pop Industry</a></h4>
-    <h5>May 5, 2019</h5>
-    <p>In February 2019, one of the biggest scandals arose to flip the image of the K-pop industry upside down.
-        A
-        scandal that originally started off with one person has uncovered the involvement of at least six more
-        celebrities (with more to be revealed). It all began two months ago with one of K-pop’s biggest stars, a
-        member
-        of Big Bang, Seungri. CCTV footage of an assault was found at a club he owned called “Burning Sun.”
-        Since then,
-        allegations have been held against a group of people for sexual assault and bribing of the police
-        community.</p>
-    <!--Clips #4-->
-    <br><br>
-    <h4><a href="https://saseye.com/2019/11/15/the-tiktok-epidemic-at-sas/" target="_blank">The Tiktok Epidemic
-            at
-            SAS</a></h4>
-    <h5>November 15, 2019</h5>
-    <p>Though the Tiktok trend at SAS is not without its detractors (and recently associated with undesirable
-        representations of SAS students on the internet), we cannot deny that the positive tendencies of this
-        phenomenon
-        are overwhelming. Here we interview current students who seem to have a fixation to this social media
-        app but
-        have also gained thousands of views and followers. Clearly, Tiktok—once known as a cringe app—has won
-        new
-        epidemic status in 2019.</p>
-
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="block">
+                    <h1 class="clips">SAS TheEye</h1>
+                </div>
+                <!--Clips #1-->
+                <div class="col-md">
+                    <div class="card">
+                        <img src="../assets/images/soccer.jpeg" class="card-img-top" alt="soccer">
+                        <div class="card-body">
+                            <h4 class="soccer">IASAS Soccer 2018
+                                Recap</h4>
+                            <h5 class="date">October 19, 2018</h5>
+                            <p class="desc">Besides Soccer, Volleyball and Cross Country were also sports celebrated in
+                                Season 1 of the IASAS
+                                regional
+                                tournaments this past weekend. We interviewed Students and athletes to test their
+                                knowledge of
+                                Volleyball and
+                                Cross Country.</p>
+                            <h4><a href="https://saseye.com/2018/10/19/iasas-soccer-2018-recap/" target="_blank"
+                                    class="btn btn-custom">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Clips #2-->
+            <div class="col-md">
+                <div class="card">
+                    <img src="../assets/images/volleyball.jpeg" class="card-img-top" alt="volleyball">
+                    <div class="card-body">
+                        <h4 class="soccer">Do
+                            Students
+                            Know
+                            Volleyball & Cross Country</h4>
+                        <h5 class="date">October 25, 2018</h5>
+                        <p class="desc">IASAS Soccer finals are coming up tomorrow! If you need to catch up, here’s a
+                            recap of the past two days
+                            of
+                            IASAS. Thank you to everyone who came to cheer on our SAS Eagles these past two days. Hope
+                            to see you
+                            tomorrow at the final games and good luck to all of the players!</p>
+                        <h4><a href="https://saseye.com/2018/10/25/do-students-know-volleyball-cross-country/"
+                                target="_blank" class="btn btn-custom">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!--Clips #3-->
+            <div class="col-md">
+                <div class="card">
+                    <img src="../assets/images/kpop.jpeg" class="card-img-top" alt="kpop">
+                    <div class="card-body">
+                        <h4 class="soccer">The Scandal That Shook the K-pop Industry</h4>
+                        <h5 class="date">May 5, 2019</h5>
+                        <p class="desc">In February 2019, one of the biggest scandals arose to flip the image of the
+                            K-pop industry upside down. A scandal that originally started off with one person has
+                            uncovered the involvement of at least six more celebrities (with more to be revealed).</p>
+                        <h4><a href="https://saseye.com/2019/05/05/the-scandal-that-shook-the-k-pop-industry/"
+                                target="_blank" class="btn btn-custom">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!--Clips #4-->
+            <div class="col-md">
+                <div class="card">
+                    <img src="../assets/images/tiktok.jpeg" class="card-img-top" alt="tiktok">
+                    <div class="card-body">
+                        <h4 class="soccer">The Tiktok Epidemic
+                            at
+                            SAS</h4>
+                        <h5 class="date">November 15, 2019</h5>
+                        <p class="desc">Though the Tiktok trend at SAS is not without its detractors (and recently
+                            associated with undesirable
+                            representations of SAS students on the internet), we cannot deny that the positive
+                            tendencies of this
+                            phenomenon
+                            are overwhelming.</p>
+                        <h4><a href="https://saseye.com/2019/11/15/the-tiktok-epidemic-at-sas/" target="_blank"
+                                class="btn btn-custom">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <!--Script tags-->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zE0g7Hlq2THRZ"
         crossorigin="anonymous"></script>
-
+    </div>
 </body>
 
 </html>
