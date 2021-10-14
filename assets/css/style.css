@@ -49,34 +49,34 @@ header{
     font-family: 'Scheherazade New', sans-serif;
     color: #6d5d54;
     font-weight:700;
-	font-size:70px
+	font-size:70px;
 }
 
 .resumetitle{
     font-family: 'Roboto', sans-serif;
 	color: black;
     font-weight:500;
-    font-size:50px
+    font-size:50px;
 }
 
 .resumedate{
     font-family: 'Roboto', sans-serif;
     color: black;
-	font-size:30px
+	font-size:30px;
 }
 
 .resumepara{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight:300;
-	font-size:35px
+	font-size:35px;
 }
 
 .list{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight:300;
-	font-size:35px
+	font-size:35px;
 }
 
 /* clips */
@@ -85,7 +85,7 @@ header{
     text-align: left;
     color: #5c505a;
     font-weight:700;
-    font-size:30px;
+    font-size:90px;
 }
 
 .soccer{
@@ -113,6 +113,7 @@ header{
     background: #dabdab;
     color: rgb(97, 81, 81);
     font-weight: 700px;
+    font-size: 2em;
 }
 
 .card-body{
@@ -129,7 +130,7 @@ header{
     font-family: 'Helvetica Neue', sans-serif;
     font-weight:bold;
     color: #685c53;
-	font-size:90px
+	font-size:90px;
 }
 
 .contacttitle{
