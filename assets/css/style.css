@@ -16,7 +16,7 @@ header{
     padding: 20px 0;
     margin-bottom:40px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2.5em;
     letter-spacing: 1.2px;
     word-spacing: 40px;
     font-weight: 700px;
@@ -34,49 +34,42 @@ header{
     text-align: left;
     color: #3a3339;
     font-weight:700;
-    font-size:120px;
+    font-size:10em;
 }
 
 .bio{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
-    font-size:40px;
+    font-size:2.5em;
     font-weight: 300;
 }
 
 /* resume */
 .resumedesc{
     font-family: 'Scheherazade New', sans-serif;
-    color: #6d5d54;
+    color: #5c505a;
     font-weight:700;
-	font-size:70px;
+	font-size:4.5em;
 }
 
 .resumetitle{
     font-family: 'Roboto', sans-serif;
 	color: black;
     font-weight:500;
-    font-size:50px;
+    font-size:3em;
 }
 
 .resumedate{
     font-family: 'Roboto', sans-serif;
     color: black;
-	font-size:30px;
+	font-size:2em;
 }
 
 .resumepara{
     font-family: 'Roboto', sans-serif;
     color: black;
     font-weight:300;
-	font-size:35px;
-}
-
-.list{
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    font-weight:300;
-	font-size:35px;
+	font-size:2.3em;
 }
 
 /* clips */
@@ -85,35 +78,35 @@ header{
     text-align: left;
     color: #5c505a;
     font-weight:700;
-    font-size:90px;
+    font-size:4.5em;
 }
 
 .soccer{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight:500;
-    font-size:55px;
+    font-size:3.5em;
 }
 
 .date{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight:100;
-    font-size:30px;
+    font-size:1.9em;
 }
 
 .desc{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight: 300;
-    font-size:35px;
+    font-size:2.2em;
 }
 
 .btn{
     background: #dabdab;
-    color: rgb(97, 81, 81);
+    color: rgb(136, 115, 115);
     font-weight: 700px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .card-body{
@@ -130,26 +123,26 @@ header{
     font-family: 'Helvetica Neue', sans-serif;
     font-weight:bold;
     color: #685c53;
-	font-size:90px;
+	font-size:4em;
 }
 
 .contacttitle{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight:500;
-    font-size:60px;
+    font-size:2.5em;
 }
 
 .contactinfo{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight: 300;
-    font-size:50px;
+    font-size:2em;
 }
 
 /* other */
 .block{
-    background-color: #dabdab;
+    background-color: #c5aa98;
     padding: 20px;
     margin-bottom: 20px;
 }
