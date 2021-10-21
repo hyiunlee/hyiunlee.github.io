@@ -1,26 +1,18 @@
+/* general */
 img{
     max-width: 500px;
 }
 
-.logo{
-    width: 100px;
-}
-
-header{
-    font-family: 'Libre Baskerville', sans-serif;
-    color: #443742;
-}
-
-.bg-custom{
+/* navbar */
+.custom-nav{
     background-color:rgb(66, 64, 64);
     padding: 20px 0;
-    margin-bottom:40px;
+    margin-bottom: 0px;
+    font-family: 'Scheherazade New', serif;
     text-transform: uppercase;
-    font-size: 2.5em;
-    letter-spacing: 1.2px;
-    word-spacing: 40px;
-    font-weight: 700px;
-    border-bottom: 1px solid;
+    font-size: 0.9em;
+    letter-spacing: 1.1px;
+    border-bottom: 5px solid #e99059;
 }
 
 .navbar-toggler{
@@ -28,89 +20,122 @@ header{
     border:0;
 }
 
-/* about */
-.name{
-    font-family: 'Scheherazade New', serif;
-    text-align: left;
-    color: #3a3339;
-    font-weight:700;
-    font-size:10em;
+.nav-link{
+    text-align: center;
 }
 
+.name{
+    font-family: 'Scheherazade New', serif;
+    text-align: center;
+    color: #b18e78;
+    font-weight:700;
+    font-size:5em;
+}
+
+/* about */
 .bio{
     font-family: 'Roboto', sans-serif;
+    color: #4e444d;
+    font-weight: 500;
+    font-size:1.2em;
+}
+
+.bio2{
+    font-family: 'Roboto', sans-serif;
     color: #3a3339;
-    font-size:2.5em;
     font-weight: 300;
+    font-size:1em;
+}
+
+.about-img{
+border-bottom: 5px solid #c5aa98;
+border-right: 5px solid #c5aa98;
+border-left: 5px solid #c5aa98;
+border-top: 5px solid #c5aa98;
+}
+
+.socials{
+    color: #b18e78;
+    padding-right: 10px;
+}
+
+@media (max-width: 450px){
+    h1{
+        font-size: 3em;
+    }
+    .custom-nav{
+        margin-bottom:0;
+    }
 }
 
 /* resume */
 .resumedesc{
     font-family: 'Scheherazade New', sans-serif;
-    color: #5c505a;
+    color: #4e444d;
     font-weight:700;
-	font-size:4.5em;
+	font-size:1.6em;
 }
 
 .resumetitle{
     font-family: 'Roboto', sans-serif;
-	color: black;
+	color: #3a3339;
     font-weight:500;
-    font-size:3em;
+    font-size:1.2em;
 }
 
 .resumedate{
     font-family: 'Roboto', sans-serif;
-    color: black;
-	font-size:2em;
+    color: #3a3339;
+    font-weight:300;
+	font-size:0.8em;
 }
 
 .resumepara{
     font-family: 'Roboto', sans-serif;
-    color: black;
-    font-weight:300;
-	font-size:2.3em;
+    color: #3a3339;
+    font-weight:400;
+	font-size:1em;
 }
 
 /* clips */
 .clips{
     font-family: 'Scheherazade New', serif;
     text-align: left;
-    color: #5c505a;
+    color: #4e444d;
     font-weight:700;
-    font-size:4.5em;
+    font-size:1.6em;
 }
 
-.soccer{
+.caption{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight:500;
-    font-size:3.5em;
+    font-size:1.4em;
 }
 
 .date{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
-    font-weight:100;
-    font-size:1.9em;
+    font-weight:300;
+    font-size:1.2em;
 }
 
 .desc{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
-    font-weight: 300;
-    font-size:2.2em;
+    font-weight: 400;
+    font-size:1.2em;
 }
 
 .btn{
     background: #dabdab;
-    color: rgb(136, 115, 115);
+    color: #5c505a;
     font-weight: 700px;
-    font-size: 1.5em;
+    font-size: 0.9em;
 }
 
 .card-body{
-    text-align: centre;
+    text-align:center;
 }
 
 .card{
@@ -120,29 +145,29 @@ header{
 
 /* contact */
 .contactcard{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight:bold;
-    color: #685c53;
-	font-size:4em;
+    font-family: 'Scheherazade New', sans-serif;
+    color: #4e444d;
+    font-weight:700;
+	font-size:1.6em;
 }
 
 .contacttitle{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
     font-weight:500;
-    font-size:2.5em;
+    font-size:1.2em;
 }
 
 .contactinfo{
     font-family: 'Roboto', sans-serif;
     color: #3a3339;
-    font-weight: 300;
-    font-size:2em;
+    font-weight: 400;
+    font-size:1em;
 }
 
 /* other */
 .block{
     background-color: #c5aa98;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
