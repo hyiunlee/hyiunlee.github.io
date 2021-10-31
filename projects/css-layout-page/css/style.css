@@ -5,23 +5,28 @@ img{
 .logo{
     width:100px;
 }
+
+.img-fluid{
+    height:350px;
+    width:250px;
+}
+
 h1{
 	font-family: 'Helvetica', sans-serif;
-	color:#0000FF;
-    font-size:60px;
+	color:#3131e7;
+    font-size:2em;
+    font-weight:bold;
 
 }
 h2{
-    font-size:1.5em;
+    font-size:1.3em;
     text-transform: uppercase;
     font-weight:500;
-    font-size:50px;
-
 }
 
 body{
 	font-family:'Lato', sans-serif;
     font-weight:200;
-	font-size:30px;
+	font-size:1em;
 	margin-top:20px;
 }
