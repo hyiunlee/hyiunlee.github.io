@@ -14,12 +14,10 @@ h1{
 }
 
 .byline{
-    font-family:'Roboto Mono';
     font-weight: 200;
 }
 
 .green{
-    font-family:'Roboto Mono';
     font-size:0.9em;
     padding-left: 10px;
     padding-right: 10px;
@@ -31,12 +29,15 @@ h1{
 }
 
 figcaption{
-    font-family:'Roboto Mono';
     font-size: 0.8em;
     font-weight: 200;
     margin-top: 10px;
-    margin-bottom: 40px;
     color: #8e8e8e;
+}
+
+.start{
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 body{
@@ -49,6 +50,10 @@ body{
     color: black;
     text-decoration: none;
 }
+
+.link:hover { 
+    background-color: #A8FF00;
+    }
 
 .chart-link{
     font-weight: 500;
@@ -71,12 +76,14 @@ body{
 
 .end{
     margin-top: 30px;
-    margin-bottom: 40px;
 }
 
 .footer{
-    margin-top: 20px;
+    font-size: 0.8em;
+    margin-top: 40px;
     margin-bottom: 40px;
+    border-top: 2px dashed #8e8e8e;
+    padding: 20px;
 }
 
 @media(max-width: 775px){
@@ -98,14 +105,11 @@ body{
     .middle{
         border-bottom: 1px grey;
     }
-
-    .charts{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
+    
     .chart-text{
         font-weight: 500;
+        margin-bottom: 20px;
+        align-items: center;
         padding-left: 50px;
         padding-right: 50px;
     }
