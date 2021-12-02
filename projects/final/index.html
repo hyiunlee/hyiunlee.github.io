@@ -1,3 +1,4 @@
+<!--About-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,20 +7,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <!--seo tags-->
-    <title></title>
-    <meta name="description" content="">
+    <title>Final project</title>
+    <meta name="description" content="This is about animal testing and how it has changed over the years">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
     <!--css-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/projects/final/css/style.css">
 </head>
 
 <body>
+    <header class="custom-nav">
+        <h1>ANIMAL TESTING</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse justify-content-center navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="/projects/final/">Main</a>
+                        <a class="nav-link" href="/projects/final/about/">About</a>
+                        <a class="nav-link" href="/projects/final/changes/">Changes</a>
+                        <a class="nav-link" href="/projects/final/products/">Products</a>
+                        <a class="nav-link" href="/projects/final/sources/">Sources</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <div class="row align-items-center">
+                <div class="offset-md-1 col-md-6">
+                    <br><img src="img/monkey.jpeg" alt="Monkey in a cage at an animal testing labatory"
+                        class="about-img img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h2>Animal testing refers to any scientific experiments and procedures carried out on living animals
+                        for
+                        the purposes of basic biology and disease research, evaluating the efficacy of new medicinal
+                        products, and testing for the human health and safety of consumer and industrial products such
+                        as
+                        cosmetics, food additives, and industrial chemicals. It is used because they are biologically
+                        comparable to humans and hence make excellent models.</h2>
+                    <p>Watch <a href="https://www.youtube.com/watch?v=G393z8s8nFY" target="_blank">this cartoon</a> for
+                        a
+                        visual representation of what animal testing is.</p>
+                </div>
+            </div>
+            <div class="offset-md-1 col-md-10">
+                <div class="seperator">
+                    <h2>Navigations</h2>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/aboutcard.jpeg"
+                                alt="Photo of a rabbit getting tested on">
+                            <div class="card-body">
+                                <h5 class="card-title">About</h5>
+                                <p>General information about animal testing.</p>
+                                <a href="/projects/final/about/" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/changescard.jpeg" alt="Photo of organs-on-chips method">
+                            <div class="card-body">
+                                <h5 class="card-title">Changes</h5>
+                                <p>How has animal testing changed over the years?</p>
+                                <a href="/projects/final/changes/" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="img/productscard.jpeg" alt="Photo of a cruetly-free logo">
+                            <div class="card-body">
+                                <h5 class="card-title">Products</h5>
+                                <p>How to identify which products are cruetly-free.</p>
+                                <a href="/projects/final/products/" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+        </main>
+    </div>
 
+
+
+
+
+    <!--Script tags-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zE0g7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
