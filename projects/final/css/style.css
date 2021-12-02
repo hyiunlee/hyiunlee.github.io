@@ -18,7 +18,7 @@ text-transform: uppercase;
 text-align: center;
 color: #434b61;
 font-weight:700;
-font-size:4em;
+font-size:3em;
 letter-spacing: 1.1px;
 }
 
@@ -37,6 +37,10 @@ font-size:1em;
 
 figcaption{
 text-align: center;
+}
+
+li{
+margin-bottom: 20px;
 }
 
 .about-img{
