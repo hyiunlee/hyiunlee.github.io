@@ -12,13 +12,23 @@ body{
 background-color:#798bb3;
 }
 
+h1{
+font-family: 'Merriweather', serif;
+text-transform: uppercase;
+text-align: center;
+color: #434b61;
+font-weight:700;
+font-size:4em;
+letter-spacing: 1.1px;
+}
+
 h2{
 font-family: 'Merriweather', serif;
 font-weight:700;
 font-size:1em;
 }
 
-p{
+p, li, figcaption{
 font-family: 'PT Sans', sans-serif;
 color: #4e444d;
 font-weight:400;
@@ -26,11 +36,7 @@ font-size:1em;
 }
 
 figcaption{
-    font-family: 'PT Sans', sans-serif;
-color: #4e444d;
 text-align: center;
-font-weight:400;
-font-size:0.8em;
 }
 
 .about-img{
@@ -40,45 +46,12 @@ border-left: 5px solid #8C92AC;
 border-top: 5px solid #8C92AC;
 }
 
-/* navbar */
-.custom-nav{
-background-color:#798bb3;
-padding: 20px 0;
-font-family: 'Scheherazade New', serif;
-text-transform: uppercase;
-font-size: 0.9em;
-letter-spacing: 1.1px;
+.alt{
+margin-bottom: 20px;
 }
 
-.navbar-toggler{
- margin:0 auto;
- border:0;
-}
-
-.nav-link{
- text-align: center;
-}
-
-h1{
-font-family: 'Merriweather', serif;
-text-align: center;
-color: #434b61;
-font-weight:700;
-font-size:5em;
-}
-
-@media (max-width: 450px){
-h1{
-font-size: 3em;
-}
-.custom-nav{
-margin-bottom:0;
-}
-}
-
-/* main */
 .seperator{
-margin: 40px 0 0 0;
+margin: 20px 0 0 0;
 padding: 10px;
 background-color: #8187a0;
 color: white;
@@ -90,7 +63,6 @@ font-size:2em;
 }
 
 /* cards */
-
 .btn{
     background: #8C92AC;
     color:white;
