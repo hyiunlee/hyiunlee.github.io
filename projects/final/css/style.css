@@ -1,4 +1,5 @@
 /* general */
+
 img{
 max-width: 500px;
 }
@@ -15,7 +16,8 @@ background-color:#798bb3;
 h1{
 font-family: 'Merriweather', serif;
 text-transform: uppercase;
-text-align: center;
+text-align: left;
+text-indent: 10px;
 color: #434b61;
 font-weight:700;
 font-size:3em;
@@ -23,16 +25,26 @@ letter-spacing: 1.1px;
 }
 
 h2{
+text-shadow: 4px 4px black;
+margin-top: 10px;
+margin-bottom: 10px;
 font-family: 'Merriweather', serif;
 font-weight:700;
 font-size:1em;
 }
 
 p, li, figcaption{
+text-align: justify;
 font-family: 'PT Sans', sans-serif;
 color: #4e444d;
 font-weight:400;
 font-size:1em;
+}
+
+/* Style that first letter! */
+p::first-letter {
+font-weight: 700;
+font-size: 150%;
 }
 
 figcaption{
@@ -44,19 +56,26 @@ margin-bottom: 20px;
 }
 
 .about-img{
-border-bottom: 5px solid #8C92AC;
-border-right: 5px solid #8C92AC;
-border-left: 5px solid #8C92AC;
-border-top: 5px solid #8C92AC;
+border: thin black solid;
 }
 
 .alt{
 margin-bottom: 20px;
 }
 
-.seperator{
-margin: 20px 0 0 0;
+.seperator1{
+margin: 20px 0 20px 0;
+padding: 2px;
+border-left: 5px double;
+border-width: 10px;
+text-align: left;
+}
+
+.seperator2{
+margin: 40px 0 20px 0;
 padding: 10px;
+border-left: thick black solid;
+Border-right: thick black solid;
 background-color: #8187a0;
 color: white;
 text-align: center;
@@ -91,4 +110,33 @@ font-size:2em;
 .bib{
 text-align: center;
 font-size: 0.7em;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media (max-width: 768px) {
+  /* For mobile phones: */
+    [class*="col-"] {
+    width: 80%; margin-left: 10%;;
+    }
+    h1{
+    font-weight: 500;
+    font-size: 2em;
+    }
+    h2{
+    font-weight:500;
+    font-size:0.8em;
+    }
 }
