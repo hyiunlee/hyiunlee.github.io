@@ -10,7 +10,13 @@ margin-bottom: 20px;
 }
 
 body{
+max-width: 2048px; 
+margin: 0 auto !important; 
 background-color:#798bb3;
+}
+
+div.a{
+margin-top: 10px;
 }
 
 h1{
@@ -20,7 +26,7 @@ text-align: left;
 text-indent: 10px;
 color: #434b61;
 font-weight:700;
-font-size:3em;
+font-size:calc(30px + 10*((100vw - 384px) / 768));
 letter-spacing: 1.1px;
 }
 
@@ -30,19 +36,28 @@ margin-top: 10px;
 margin-bottom: 10px;
 font-family: 'Merriweather', serif;
 font-weight:700;
-font-size:1em;
+font-size:calc(24px + 5*((100vw - 384px) / 768));
 }
 
 p, li, figcaption{
-text-align: justify;
+text-align: left;
 font-family: 'PT Sans', sans-serif;
 color: #4e444d;
 font-weight:400;
-font-size:1em;
+font-size: calc(16px + (100vw - 384px) / 768);
+line-height: normal;
 }
 
-/* Style that first letter! */
-p::first-letter {
+p.a{
+vertical-align: top;
+}
+
+p.b{
+margin-top: 10px;
+}
+
+/* first letter */
+p.a::first-letter {
 font-weight: 700;
 font-size: 150%;
 }
@@ -59,12 +74,17 @@ margin-bottom: 20px;
 border: thin black solid;
 }
 
+img.a{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 .alt{
 margin-bottom: 20px;
 }
 
 .seperator1{
-margin: 20px 0 20px 0;
+margin: 50px 0 0;
 padding: 2px;
 border-left: 5px double;
 border-width: 10px;
@@ -72,7 +92,7 @@ text-align: left;
 }
 
 .seperator2{
-margin: 40px 0 20px 0;
+margin: 20px 0 0 0;
 padding: 10px;
 border-left: thick black solid;
 Border-right: thick black solid;
@@ -87,23 +107,23 @@ font-size:2em;
 
 /* cards */
 .btn{
-    background: #8C92AC;
-    color:white;
-    font-weight:700;
-    font-size: 0.9em;
+background: #8C92AC;
+color:white;
+font-weight:700;
+font-size: 0.9em;
 }
 
 .card-body{
-    text-align:center;
+text-align:center;
 }
 
 .card{
-    margin-top: 10px;
-    margin-bottom: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .card-img-top{
-    margin:0 auto;
+margin:0 auto;
 }
 
 /* sources */
@@ -112,7 +132,20 @@ text-align: center;
 font-size: 0.7em;
 }
 
-/* For desktop: */
+@media only screen and (min-width: 2048px){
+h1{
+font-size: 52px;
+}
+h2{
+font-size: 35px;
+}
+p, li, figcaption{
+font-size: 19px;    
+}
+}
+
+@media only screen and (min-width: 992px){
+/* desktop */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -125,18 +158,31 @@ font-size: 0.7em;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+}
 
-@media (max-width: 768px) {
-  /* For mobile phones: */
-    [class*="col-"] {
-    width: 80%; margin-left: 10%;;
-    }
-    h1{
-    font-weight: 500;
-    font-size: 2em;
-    }
-    h2{
-    font-weight:500;
-    font-size:0.8em;
-    }
+@media only screen and (max-width: 992px){
+/* tablet */
+[class*="col-"] {
+width: 80%; margin-left: 10%;;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  /* mobile */
+[class*="col-"] {
+width: 80%; margin-left: 10%;;
+}
+h1{
+font-weight: 500;
+font-size: 30px;
+}
+h2{
+font-weight:600;
+font-size: 18px;
+}
+p, li, figcaption{
+font-weight:400;
+font-size:16px;
+line-height: normal;
+}
 }
