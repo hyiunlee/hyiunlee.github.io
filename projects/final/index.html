@@ -19,6 +19,7 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
 
@@ -33,48 +34,76 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="offset-1 col-10 a">
+                    <h1>THE HISTORY</h1>
+                    <h3>of</h3>
+                    <h1>ANIMAL TESTING</h1>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-2 col-8">
+                        <a href="#main" class="btn">Main</a>
+                        <a href="#about" class="btn">About</a>
+                        <a href="#changes" class="btn">Changes</a>
+                        <a href="#alternatives" class="btn">Alternatives</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <br>
         <main>
-            <div class="row">
-                <div class="col-6 offset-1">
-                    <div class="seperator1">
-                        <h1>THE HISTORY</h1>
-                        <h1>OF</h1>
-                        <h1>ANIMAL TESTING</h1>
-                    </div>
+            <div class="row" id="main">
+                <div class="offset-1 col-4">
+                    <img src="/projects/final/img/monkey.jpeg" alt="Monkey in a cage at an animal testing labatory"
+                        class="about-img img-fluid a">
                 </div>
-                <div class="col-4">
-                    <br><img src="/projects/final/img/doganimaltesting.jpeg" alt="Dogs at an animal testing labatory"
-                        class="about-img img-fluid">
+                <div class="col-6">
+                    <br>
+                    <p class="a b">Animal testing refers to any scientific experiments and procedures carried out on
+                        living animals for
+                        the purposes of basic biology and disease research, evaluating the efficacy of new medicinal
+                        products, and testing for the human health and safety of consumer and industrial products such
+                        as
+                        cosmetics, food additives, and industrial chemicals. It is used because they are biologically
+                        comparable to humans and hence make excellent models.</p>
+                </div>
+                <div class="offset-1 col-10 a">
+                    <div class="iframe-container">
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/G393z8s8nFY"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="about">
                 <div class="offset-1 col-10">
-                    <p class="a b"> Animal testing refers to any scientific experiments and procedures carried out on
-                        living
-                        animals
-                        for
-                        the purposes of basic biology and disease research, evaluating the efficacy of new medicinal
-                        products, and testing for the human health and safety of consumer and industrial products
-                        such
-                        as
-                        cosmetics, food additives, and industrial chemicals. Furthermore, before new medications are
-                        used by humans, researchers must test them to evaluate
-                        both their positive and negative effects. Animals are utilized because their biology is
-                        highly similar to that of humans, not only in
-                        basic activities like breathing, digesting, and mobility, but also in basic cell processes.
-                        Thus, they make excellent models.</p>
-                </div>
-                <div class="offset-1 col-10">
-                    <div class="about-img img-fluid">
-                        <div class="infogram-embed" data-id="_/kb0Ia7WxRQ5uHtxXbo8M" data-type="interactive"
-                            data-title="Research Facilities — United States"></div>
-                        <script>!function (e, i, n, s) { var t = "InfogramEmbeds", d = e.getElementsByTagName("script")[0]; if (window[t] && window[t].initialized) window[t].process && window[t].process(); else if (!e.getElementById(n)) { var o = e.createElement("script"); o.async = 1, o.id = n, o.src = "https://e.infogram.com/js/dist/embed-loader-min.js", d.parentNode.insertBefore(o, d) } }(document, 0, "infogram-async");</script>
+                    <div class="seperator">
+                        <h2>General information</h2>
                     </div>
                 </div>
                 <div class="offset-1 col-10">
-                    <p class="a b">Every year, more than 115 million animals are projected to be
+                    <figure>
+                        <div class="about-img img-fluid a">
+                            <div class="infogram-embed" data-id="_/kb0Ia7WxRQ5uHtxXbo8M" data-type="interactive"
+                                data-title="Research Facilities — United States"></div>
+                            <script>!function (e, i, n, s) { var t = "InfogramEmbeds", d = e.getElementsByTagName("script")[0]; if (window[t] && window[t].initialized) window[t].process && window[t].process(); else if (!e.getElementById(n)) { var o = e.createElement("script"); o.async = 1, o.id = n, o.src = "https://e.infogram.com/js/dist/embed-loader-min.js", d.parentNode.insertBefore(o, d) } }(document, 0, "infogram-async");</script>
+                        </div>
+                        <figcaption><i>This map is provided by <a
+                                    href="https://www.humanesociety.org/all-our-fights/taking-suffering-out-science"
+                                    target="_blank">The Human Society Of The United States</a>.</i></figcaption>
+                    </figure>
+                </div>
+                <div class="offset-1 col-10">
+                    <p class="a">Every year, more than 115 million animals are projected to be
                         utilized in laboratory research
                         around the world. However, the exact number is unknown because only a tiny percentage of
                         countries collect and publish statistics on animal testing and research. The Animal Welfare
@@ -87,31 +116,42 @@
                         protections for the remainder.
                     </p>
                 </div>
+            </div>
+            <div class="row" id="changes">
                 <div class="offset-1 col-10">
-                    <div class="seperator2">
+                    <div class="seperator">
                         <h2>Why is animal testing changing?</h2>
                     </div>
                 </div>
                 <div class="offset-1 col-5">
-                    <br><br><br>
-                    <p class="a b">On the surface, animals and humans share similar symptoms, but basic variations in
+                    <p class="a b">On the surface, animals and humans share similar symptoms, but basic variations
+                        in
                         genetics,
                         physiology, and biochemistry can lead to divergent reactions to the illness and potential
                         therapies.
-                        Such reasons and overreliance on animal models in several areas of illness study may have slowed
+                        Such reasons and overreliance on animal models in several areas of illness study may have
+                        slowed
                         rather than accelerated medical development.</p>
                     <p class="b"><b>Examples:</b></p>
                     <ul>
-                        <li>The FDA, officially known as the United States Food and Drug Administration, reported that
-                            92% of drugs entering clinical trials after animal testing was rejected. Moreover, half of
+                        <li>The FDA, officially known as the United States Food and Drug Administration, reported
+                            that
+                            92% of drugs entering clinical trials after animal testing was rejected. Moreover, half
+                            of
                             the 8% authorized were later withdrawn or relabeled as a result of severe or lethal side
                             effects not found during animal testing. </li>
-                        <li>According to a report by Dr. Jarrod Bailey, a geneticist and science advisor, 85 HIV/AIDS
+                        <li>Vioxx, a drug that was successful on animals, was taken off the market after it caused more
+                            than 60,000 deaths in the U.S alone.</li>
+                        <li>According to a report by Dr. Jarrod Bailey, a geneticist and science advisor, 85
+                            HIV/AIDS
                             vaccines that have been successful in animal experiments have failed to protect humans,
                             while some feel it rendered them more susceptible to the disease.</li>
-                        <li>Published in the Journal “Annals of Internal Medicine,” it revealed that attempting to mimic
-                            human diseases intentionally producing symptoms in animals has scientific constraints that
-                            cannot be overcome. As a result, nine out of ten candidate treatments that appear to be safe
+                        <li>Published in the Journal “Annals of Internal Medicine,” it revealed that attempting to
+                            mimic
+                            human diseases intentionally producing symptoms in animals has scientific constraints
+                            that
+                            cannot be overcome. As a result, nine out of ten candidate treatments that appear to be
+                            safe
                             and effective in animal research fail when tested in humans.</li>
                     </ul>
                 </div>
@@ -125,26 +165,29 @@
                         alt="Graph that shows the numbers of animals used in research from 1973-2019"
                         class="about-img a img-fluid">
                 </div>
+            </div>
+            <div class="row" id="alternatives">
                 <div class="offset-1 col-10">
-                    <div class="seperator2">
+                    <div class="seperator">
                         <h2>Some alternatives to animal testing</h2>
                     </div>
                 </div>
                 <div class="offset-1 col-5">
                     <p class="a b">As the world evolved, new technology was introduced, and the need for
                         animal testing became
-                        outdated and started to decrease in numbers as many countries began to prohibit the
-                        manufacture
-                        of such products. Nearly a hundred alternatives to animal experimentation have been discovered
-                        as of
-                        today. These were
-                        shown to be not only more efficient and cost-effective, but also more accurate. For instance...
+                        outdated. Today, nearly a hundred alternatives to animal experimentation have been
+                        discovered. These were
+                        shown to be not only more efficient and cost-effective, but also more accurate. For
+                        instance...
                     </p>
                     <p class="b">
-                        <b>Organs-on-chip:</b> It is made up of human cells that have been cultivated in cutting-edge
-                        technology to imitate the structure and function of human organs and organ systems. According to
+                        <b>Organs-on-chip:</b> It is made up of human cells that have been cultivated in
+                        cutting-edge
+                        technology to imitate the structure and function of human organs and organ systems.
+                        According to
                         the findings of a study released in
-                        2014 by researchers in the department of engineering science, the chips can be used instead of
+                        2014 by researchers in the department of engineering science, the chips can be used instead
+                        of
                         animal tests and have been demonstrated to more accurately reproduce human physiology,
                         illnesses, and treatment reactions. <i>Watch <a
                                 href="https://www.youtube.com/watch?v=0jf6Tor9WtA" target="_blank">this
@@ -160,14 +203,18 @@
                             skin.</i>
                     </p>
                     <p class="b">
-                        <b>Computer (in Silico) Modeling:</b> Researchers have created a diverse set of sophisticated
-                        computer models that imitate human biology and disease progression. These models may accurately
-                        anticipate how new medications would behave in the human body and can thus replace the use of
-                        animals in exploratory research and many regular drug tests.
-                        b>Research With Human Volunteers: A method known as <a
+                        <b>Computer (in Silico) Modeling:</b> Researchers have created a diverse set of
+                        sophisticated
+                        computer models that imitate human biology and disease progression. These models may
+                        accurately
+                        anticipate how new medications would behave in the human body and can thus replace the use
+                        of animals in exploratory research and many regular drug tests.
+                    </p>
+                    <p class="b">
+                        <b>Research with Human Volunteers:</b> A method known as <a
                             href="https://harmreductionjournal.biomedcentral.com/articles/10.1186/s12954-019-0308-4"
-                            target="_blank">
-                            "microdosing"</a> can provide crucial information on the safety of an investigational
+                            target="_blank">"microdosing"</a> can provide crucial information on the safety of an
+                        investigational
                         drug and how it is metabolized in people. Furthermore, sophisticated brain imaging and
                         recording techniques involving human volunteers, such as functional magnetic resonance
                         imaging (fMRI), can be utilized to replace experiments in which rats, cats, and monkeys'
@@ -175,30 +222,49 @@
                     </p>
                 </div>
                 <div class="col-5 a">
-                    <div class="alt">
-                        <img src="/projects/final/img/labskin.jpeg" alt="Image of artificial skin"
-                            class="about-img img-fluid">
-                    </div>
+                    <img src="/projects/final/img/labskin.jpeg" alt="Image of artificial skin"
+                        class="about-img img-fluid a">
                     <figure>
                         <img src="/projects/final/img/products.jpeg" alt="How Organs-on-chip works"
-                            class="about-img img-fluid">
-                        <figcaption>Click <a
-                                href="https://www.ulta.com/conscious-beauty/cruelty-free-beauty/?catargetid=330000200002566600&CAPCID=472967169097&CATCI=dsa-981826081665&CAAGID=110867952709&CADevice=c&gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ykBFdI0FwR4K744HnPHKF8JmBePsFbAD-kVffAQEVt-kySwISz2YVAaAkn2EALw_wcB"
-                                target="_blank">here</a> for
-                            companies that promote cruelty-free products.</figcaption>
+                            class="about-img img-fluid a">
+                        <figcaption><i>Click <a
+                                    href="https://www.ulta.com/conscious-beauty/cruelty-free-beauty/?catargetid=330000200002566600&CAPCID=472967169097&CATCI=dsa-981826081665&CAAGID=110867952709&CADevice=c&gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ykBFdI0FwR4K744HnPHKF8JmBePsFbAD-kVffAQEVt-kySwISz2YVAaAkn2EALw_wcB"
+                                    target="_blank">here</a> for
+                                companies that promote cruelty-free products.</i></figcaption>
                     </figure>
                 </div>
             </div>
         </main>
-
     </div>
-
+    <footer>
+        <p class="c">Hyunju Lee. All rights reserved<br>
+            <a class="a" href="http://127.0.0.1:5500/index.html">Portfolio</a>
+        </p>
+    </footer>
 
     <!--Script tags-->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="http://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zE0g7Hlq2THRZ"
         crossorigin="anonymous"></script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
